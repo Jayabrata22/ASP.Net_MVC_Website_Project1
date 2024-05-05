@@ -8,5 +8,10 @@ namespace Website1.Controllers
         {
             return View();
         }
+
+        public IActionResult ViewCard()
+        {
+            return View();
+        }
     }
 }

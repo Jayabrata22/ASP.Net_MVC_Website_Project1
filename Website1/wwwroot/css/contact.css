@@ -1,0 +1,104 @@
+﻿
+body {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pictureOne {
+    background-image: url(../images/image1,.png);
+    min-height: 200px;
+    margin:0;
+}
+
+
+.pictureOne{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:50px;
+}
+
+.ptext1 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text {
+    background-color: #313534;
+    padding: 20px;
+    color: wheat;
+    border-radius: 15px;
+}
+
+.grid-container {
+    margin-top:5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns, each taking equal space */
+    gap: 0px; /* Gap between grid items */
+}
+
+.grid-item {
+    padding: 20px;
+   
+}
+
+h3{
+    text-align:center
+}
+
+.map {
+    min-height: 300px;
+}
+
+.map h1{
+    text-align:center;
+    justify-content:center;
+}
+
+.pic{
+    display:flex;
+}
+
+.email-subscribe{
+    background-color:black
+}
+.NewsH1{
+    color:white;
+}
+
+.Newsp{
+    color:whitesmoke;
+}
+
+.input-group {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LastPart {
+    background-color:black;
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 45px;
+}
+
+
+
