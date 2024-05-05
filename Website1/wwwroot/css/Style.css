@@ -1,0 +1,99 @@
+﻿
+body {
+    margin-bottom:0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pictureOne {
+    background-image: url(../images/image1,.png);
+    min-height: 400px;
+    margin:0;
+}
+
+.pictureTwo {
+    background-image: url(../images/image2..png);
+    min-height: 400px;
+}
+
+.pictureThree {
+    background-image: url(../images/image3.png);
+    min-height: 400px;
+}
+
+.picturelast {
+    background-image: url(../images/image1,.png);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom:45px;
+}
+
+.pictureOne, .pictureTwo, .pictureThree {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:0;
+}
+
+.ptext1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text {
+    background-color: #313534;
+    padding: 20px;
+    color: wheat;
+    border-radius: 15px;
+}
+
+.text2 {
+    /*background-color: #313534;*/
+    background-color: transparent;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+}
+
+.text3 {
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+.description {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.description2 {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.description3 {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
