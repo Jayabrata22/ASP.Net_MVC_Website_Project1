@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/contact.css" />
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Website1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="About">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark mr-7" asp-area="" asp-controller="Service" asp-action="Service">SERVICE</a>
+                    </li>
+                    @* <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </li> *@
+                    <br />
+                    <li class="nav-item ml-5">
+                    <li class="nav-item">
+                        <input type="search" id="form1" class="form-control" />
+
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                            <i class="fas fa-search">Search</i>
+                        </button>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+    <style>
+        .Login-From{
+            min-height: 600px;
+            margin-top: 133px;
+        }
+        }
+    </style>
+    <section class="pictureOne">
+        <div class="ptext1">
+            <span class="text">Paralax Website</span>
+        </div>
+    </section>
+    <section class="Login-From">
+        <section class="container">
+
+            <form>
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="form2Example1" class="form-control" />
+                    <label class="form-label" for="form2Example1">Email address</label>
+                </div>
+
+                <!-- Password input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="password" id="form2Example2" class="form-control" />
+                    <label class="form-label" for="form2Example2">Password</label>
+                </div>
+
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                    <div class="col d-flex">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                            <label class="form-check-label" for="form2Example31"> Remember me </label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <!-- Simple link -->
+                        <a href="#!">Forgot password?</a>
+                    </div>
+                </div>
+
+                <!-- Submit button -->
+                <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Not a member? <a asp-area="" asp-controller="Home" asp-action="Register">Register</a></p>
+                    <p>or sign In with:</p>
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1 rounded-circle" style="background-color: blue;">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1 rounded-circle" style="background-color: red;">
+                        <i class="fab fa-google"></i>
+                    </button>
+
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1 rounded-circle" style="background-color: black;">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+
+                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-link btn-floating mx-1 rounded-circle">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </div>
+
+
+            </form>
+
+        </section>
+    </section>
+</body>
+</html>
+

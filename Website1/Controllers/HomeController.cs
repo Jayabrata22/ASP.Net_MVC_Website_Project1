@@ -23,6 +23,17 @@ namespace Website1.Controllers
             return View();
         }
 
+        //login view+ Function
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        //For register 
+        public IActionResult Register()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
